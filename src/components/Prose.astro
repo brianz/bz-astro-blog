@@ -1,11 +1,5 @@
-<article class="prose dark:prose-dark">
-    <slot />
+<article
+  class="prose dark:prose-dark max-w-none before:prose-code:content-none after:prose-code:content-none dark:prose-code:text-gray-200"
+>
+  <slot />
 </article>
-
-<style>
-    .prose {
-        @apply max-w-none
-        /* Size Modifiers: https://github.com/tailwindlabs/tailwindcss-typography#size-modifiers */
-        /* Color Themes: https://github.com/tailwindlabs/tailwindcss-typography#color-modifiers */
-    }
-</style>

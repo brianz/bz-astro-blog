@@ -1,18 +1,89 @@
 ---
-title: 'About'
-description: 'There is a simple secret to building a faster website — just ship less.'
+title: "About"
+description: "There is a simple secret to building a faster website — just ship less."
+date: "2016-03-21T09:07:04-06:00"
 ---
-import DefaultPageLayout from '$/layouts/default.astro'
-import Prose from '$/components/Prose.astro'
+
+import DefaultPageLayout from "$/layouts/default.astro"
+import Prose from "$/components/Prose.astro"
 
 <DefaultPageLayout content={{ title: frontmatter.title, description: frontmatter.description }}>
     <Prose>
-            Astro-Ink is a crisp, minimal, personal blog theme for Astro, that shows the capability of statically built sites - offering all the goodness and DX of the modern JS ecosystem without actually shipping any JS by default. It's built by...
 
-            ## Few Bots, Meta-humans & a Guy!
-Aftab Alam // [@aftabbuddy](https://twitter.com/aftabbuddy)  // [one-aalam](https://github.com/one-aalam)
-            <div class="author">
-                <img class="rounded-full" width="160" src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e5358878e2493fbea064dd9_peep-59.svg" title="Aalam" />
-            </div>
+## Background
+
+My name is Brian Zambrano and this is my tiny corner of the internet where I (mostly) talk about
+software and related technology. I currently reside in Fort Collins, CO with my wife and twin boys.
+In addition to software I really like the outdoors, coffee and cycling.
+
+I'm currently employed at [AWS](https://aws.amazon.com) as a System Development Engineer.
+
+**All opinions here are my own and does not in any way relate to my employer. Any systems or tooling
+I discuss here are for informational purposes only, and should not be considered endorsements.**
+
+Posts have been a bit slow, but I'm trying to rekindle my blogging mojo.
+
+You can read more about my professional background on my
+[LinkedIn profile](https://www.linkedin.com/in/brianzambrano). In a nutshell, I grew up in
+Sunnyvale, CA and originally studied [Materials Engineering](http://mate.calpoly.edu) at Cal Poly,
+San Luis Obispo. I ended up back home in the middle of the first dot-com boom in 2000 and fell into
+software. Eventually I got a second degree in computer science from
+[San Francisco State University](http://cs.sfsu.edu).
+
+## Areas of interest
+
+I taught myself Python around 2001 and have been using continually since then. In addition to Python
+my current areas of interest are:
+
+- Serverless applications and architecture
+- Amazon web services
+- Microservice design and architecture
+- Docker
+- Front-end functional languages (ELM, ReasonML)
+- Getting better at React and it's ecosystem
+- Elixir and its ecosystem (Phoenix, Erlang)
+- Scaling development teams and platforms
+
+Of course, I have **many** more interests but those are the highlights.
+
+## Serverless
+
+<a
+  href="https://www.packtpub.com/application-development/serverless-design-patterns-and-best-practices"
+  target="_blank"
+>
+  <img
+    src="/images/serverless-book-cover-md.jpg"
+    alt="Serverless Design Patterns and Best Practices"
+    height="480"
+    style="float: right; margin: 0 0 0 15px;"
+  ></img>
+</a>
+
+I am the author of the Packt Publishing book
+[Serverless Design Patterns and Best Practices](https://www.amazon.com/Serverless-Design-Patterns-Best-Practices/dp/178862064X/)
+There are plenty of good tips and tricks in there for anyone building serverless applications, and
+I'd encourage you to check it out.
+
+My book covers several general patterns for serverless applications which may be applied to most
+cloud providers. Each chapter has a real-world example of an application which explains a particular
+pattern. All of the code for the example can be found in this Github repository:
+[brianz/serverless-design-patterns](https://github.com/brianz/serverless-design-patterns)
+
+## AWS
+
+I currently hold an AWS Certification as a Solutions Architect:
+
+![AWS Certified Architect](/images/aws-cert/AWS_Certified_Logo_SAA_588x300_Color.png)
+![AWS Solutions Architect - Associate](/images/aws-cert/AWS_Certified_Tag__SAA_588x300-Color.png)
+
+## RoastLog
+
+In 2008 I had an idea for a SAAS platform for coffee roasters. That idea grew and turned into
+[RoastLog](http://roastlog.com/). I've been running RoastLog as a real business since 2009 with my
+long-time friend and business partner, Linsey Fan. RoastLog is used every day of the week all over
+the world to help coffee roasters run their business.
+
     </Prose>
+
 </DefaultPageLayout>
